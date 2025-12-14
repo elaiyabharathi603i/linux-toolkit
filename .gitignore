@@ -1,89 +1,56 @@
-# ========== BASH/SHELL SCRIPTS ==========
-# Temporary/swap files
+# ===== SHELL/BASH =====
+# Temporary files
 *~
 *.swp
 *.swo
-*.swn
 *.bak
 *.backup
-*.old
-*.orig
 
 # Shell history
-*.history
-*.sh_history
 .bash_history
 .zsh_history
+*.history
 
-# Output/result files
+# Output files
 *.out
-*.output
-result.txt
 output/
 results/
 
-# ========== SYSTEM FILES ==========
+# ===== SYSTEM =====
 # OS metadata
 .DS_Store
 Thumbs.db
 desktop.ini
-*.lnk
 
 # Temporary directories
 tmp/
 temp/
-.tmp/
 .cache/
 
-# ========== SECRETS (NEVER COMMIT!) ==========
+# ===== SECRETS =====
 .env
 .env.*
 *.key
 *.pem
 *.crt
-*.cer
-*.pfx
 secrets.*
 credentials.*
 config.ini
-config.yaml
-config.yml
 
-# ========== LOG FILES ==========
+# ===== LOGS =====
 *.log
 logs/
-*.pid
-*.lock
 
-# ========== IDE/EDITOR ==========
+# ===== IDE =====
 .vscode/
 .idea/
 *.code-workspace
-*.sublime-*
-.project
-.settings/
 
-# ========== VERSION CONTROL ==========
-.git/
-*.orig
-*.rej
-
-# ========== ARCHIVES ==========
-*.tar.gz
-*.zip
-*.rar
-*.7z
-*.iso
-*.img
-
-# ========== ESP32 (for future) ==========
+# ===== ESP32 (for future) =====
 .pio/
 .pioenvs/
 .piolibdeps/
-.platformio/
 *.elf
 *.bin
 *.hex
-*.map
 build/
-dist/
