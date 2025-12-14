@@ -1,0 +1,38 @@
+# ===========================================
+# Linux Toolkit - Bash Aliases
+# ===========================================
+
+# Quick navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ~='cd ~'
+
+# Better listing
+alias ll='ls -la'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git log --oneline --graph'
+
+# System info
+alias disks='df -h'
+alias mem='free -h'
+alias cpuinfo='lscpu | grep -E "(Model name|CPU\(s\)|Thread)"'
+alias myip='curl -s ifconfig.me'
+
+# Toolkit shortcuts
+alias toolkit='bash scripts/test.sh'
+alias sysinfo='bash scripts/system/sysinfo.sh'
+alias esphelp='bash scripts/esp32/esp32_helper.sh'
+alias netcheck='bash scripts/network/network_check.sh'
+alias backup='bash scripts/backup/simple_backup.sh'
+
+# Quick edits
+alias edit-aliases='nano configs/dotfiles/bash_aliases'
+alias edit-readme='nano README.md'
